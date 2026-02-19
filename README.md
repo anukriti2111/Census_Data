@@ -75,7 +75,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost scipy
 - Loads the same data and builds a numeric feature set (e.g. age, weeks worked, wage, capital gains/losses, dividends, etc.).
 - Preprocesses (log-transform, winsorize, standardize) and runs **KMeans** on the full feature space (no sample weights in KMeans to avoid numerical issues).
 - Selects number of clusters using elbow and silhouette plots; uses **weight** only for segment-size and post-hoc analysis.
-- Assigns segments, profiles them (e.g. mean features and income mix per cluster), and visualizes with 2D PCA and an optional 3-PC clustering view in a separate cell.
+- Assigns segments, profiles them (e.g. mean features and income mix per cluster), and visualizes with PCA.
 - Includes hierarchical clustering (dendrogram) on a sample for validation.
 
 ---
