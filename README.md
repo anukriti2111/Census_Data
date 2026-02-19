@@ -83,7 +83,7 @@ pip install pandas numpy matplotlib scikit-learn xgboost scipy
 ## Outputs
 
 - **Classification:** Trained models and evaluation printed in the notebook; figures saved under `plots/`.
-- **Segmentation:** Cluster labels, segment profiles, and plots (elbow, silhouette, PCA 2D, optional 3D) in the notebook and under `plots/`.
+- **Segmentation:** Cluster labels, segment profiles, and plots (elbow, silhouette, PCA) in the notebook and under `plots/`.
 
 ---
 
